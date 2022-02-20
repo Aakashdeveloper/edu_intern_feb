@@ -31,3 +31,27 @@ head
 
 body
 > All the structure which is visible to the user
+
+Block  
+> Start from new line
+> Consume whole width of screen
+> p h1-h6 div
+
+Inline 
+> Start in same line
+> Consume only required space
+> a span img
+
+https://imgbb.com/
+
+/////
+profile
+/////
+Name
+img
+SomeText ABout U
+skills
+hobbies
+googleMap
+footer
+sociallink
