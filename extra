@@ -34,10 +34,10 @@ body
 
 Block  
 > Start from new line
-> Consume whole width of screen
+> Consume 
 > p h1-h6 div
 
-Inline 
+Inline whole width of screen
 > Start in same line
 > Consume only required space
 > a span img
@@ -60,3 +60,33 @@ sociallink
 https://aakashhanda.me/
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+inline
+styletag
+stylesheet
+
+inline>styletag>stylesheet
+
+div
+
+inline{
+    color:red,
+    font-size:30px
+}
+
+styletag{
+    color:green,
+    text-align:center,
+}
+
+stylesheet{
+    text-align:right,
+    border-radius:15%
+}
+
+{
+   color:red,
+   font-size:30px,
+   text-align:center,
+   border-radius:15%
+}
