@@ -90,3 +90,8 @@ stylesheet{
    text-align:center,
    border-radius:15%
 }
+
+////////////
+tagname > h1, p, div, a
+class(.) > to target group of element for same property
+id(#) > to target unique element

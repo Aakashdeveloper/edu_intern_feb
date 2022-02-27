@@ -1,0 +1,38 @@
+h1{
+    color:rgb(162, 228, 41);
+    text-align:center;
+}
+h2{
+    color:white;
+    text-align:center
+}
+.card{
+    height:400px;
+    width:22%;
+    background-color:#9d6063;
+    float:left;
+    margin-left:2%;
+    overflow: scroll;
+}
+.purple{
+    background-color:#0e618b;
+}
+
+#brown{
+    background-color:#84685a;
+}
+
+.skyblue{
+    background-color:#b6bcd7;
+}
+.card > img{
+    height:200px;
+    width:100%
+}
+#mainDiv{
+    display: inline-block
+}
+
+#heading1{
+    color:rgb(218, 233, 218)
+}

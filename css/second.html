@@ -1,15 +1,59 @@
 <html>
     <head>
+        <style>
+            h1{
+                color:teal;
+                text-align:center;
+            }
+            h2{
+                color:white;
+                text-align:center
+            }
+           
 
+            .card{
+                height:400px;
+                width:22%;
+                background-color:#9d6063;
+                float:left;
+                margin-left:2%;
+                overflow: scroll;
+            }
+            .purple{
+                background-color:#0e618b;
+            }
+
+            #brown{
+                background-color:#84685a;
+            }
+            
+            .skyblue{
+                background-color:#b6bcd7;
+            }
+            .card > img{
+                height:200px;
+                width:100%
+            }
+
+           
+
+            #mainDiv{
+                display: inline-block
+            }
+
+            #heading1{
+                color:rgb(218, 233, 218)
+            }
+        </style>
     </head>  
     <body>
-        <h1 style="text-align:center;">Developer City</h1>
+        <h1>Developer City</h1>
         <hr/>
        
-        <div style="display: inline-block">
-            <div style="height:400px;width:22%;background-color:teal;float:left;margin-left:2%;overflow: scroll;">
-                <img src="amsterdam.jpeg" alt="amsterdam" style="height:200px;width:100%"/>
-                <h2 style="text-align:center">
+        <div id="mainDiv">
+            <div class="card">
+                <img src="amsterdam.jpeg" alt="amsterdam"/>
+                <h2>
                     Amsterdam
                 </h2>
                 <p>
@@ -19,27 +63,27 @@
                     Amsterdam is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </p>
             </div>
-            <div style="height:400px;width:22%;background-color:olive;float:left;margin-left:2%;overflow: scroll">
-                <img src="helsinki.jpeg" alt="helsinki" style="height:200px;width:100%"/>
-                <h2 style="text-align:center;color:orange">
+            <div class="card purple">
+                <img src="helsinki.jpeg" alt="helsinki"/>
+                <h2>
                     Helsinki
                 </h2>
                 <p>
                     Helsinki is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </p>
             </div>
-            <div style="height:400px;width:22%;background-color:hotpink;float:left;margin-left:2%;overflow: scroll">
-                <img src="london.jpeg" alt="london" style="height:200px;width:100%"/>
-                <h2 style="text-align:center">
+            <div class="card" id="brown">
+                <img src="london.jpeg" alt="london"/>
+                <h2>
                     London
                 </h2>
                 <p>
                     London is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                 </p>
             </div>
-            <div style="height:400px;width:22%;background-color:khaki;float:left;margin-left:2%;overflow: scroll">
-                <img src="manali.jpeg" alt="manali" style="height:200px;width:100%"/>
-                <h2 style="text-align:center">
+            <div class="card skyblue">
+                <img src="manali.jpeg" alt="manali"/>
+                <h2>
                     Manali
                 </h2>
                 <p>
@@ -53,15 +97,6 @@
                 <h3>&copy; Developer Funnel</h3>
             </center>
         </footer>
-        <!--
-        <div style="height:350px;width:100%;background-color:teal">
-            <div style="height:350px;width:30%;background-color:red;float:left"></div>
-            <div style="height:350px;width:69%;background-color:blue;float:left"></div>
-        </div>
-        <p style="background-color:hotpink;text-align: center;"> This is p tag</p>
-        <div style="background-color:slateblue;text-align: center;">
-            <span >This is span tag</span>
-        </div>
-        -->
+
     </body>
 </html>
