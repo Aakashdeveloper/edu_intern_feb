@@ -1,0 +1,95 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*footer CSS*/
+#header{
+    height:60px;
+    background-color:#e28b62
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+/*Search CSS*/
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('image/food-wallpaper.png');
+    background-repeat:no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color:rgb(240 229 229/ 60%);
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top:2%;
+    position:absolute;
+}
+
+#logo>span{
+    margin-left: 28%;
+    margin-top:16%;
+    position:absolute;
+    font-size: 80px;
+}
+
+#heading{
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+}
+
+.restSelect{
+    width:55%;
+}
+
+/*QuickSearch CSS*/
+#quickSearch{
+    height:600px;
+    width:80%;
+    margin-left:10%;
+    margin-top: 2%;
+    border:6px double rgb(204, 84, 36)
+}
+/*footer CSS*/
+#footer{
+    height:60px;
+    width:100%;
+    border:4px dashed rgb(73, 16, 28)
+}

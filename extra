@@ -95,3 +95,14 @@ stylesheet{
 tagname > h1, p, div, a
 class(.) > to target group of element for same property
 id(#) > to target unique element
+
+////
+solid
+dotted
+double
+dashed
+groove
+border:2px solid red
+
+position:absolute
+position:relative
