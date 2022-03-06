@@ -81,15 +81,83 @@ select{
 
 /*QuickSearch CSS*/
 #quickSearch{
-    height:600px;
     width:80%;
     margin-left:10%;
     margin-top: 2%;
-    border:6px double rgb(204, 84, 36)
 }
+
+#quickHeading{
+     font-size:30px;
+     color:#e28b62;
+     display:block;
+     font-weight:bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 2%;
+}
+
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    width:30%;
+    box-shadow: 10px 20px 40px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.tileComponent1{
+  width:50%;
+  height:180px;
+  float: left;
+}
+
+.tileComponent1 > img{
+    width:100%;
+    height:180px;
+}
+.tileComponent2{
+    width:45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float: left;
+}
+
+.componentHeading > a{
+    color:#e28b62;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+
 /*footer CSS*/
 #footer{
-    height:60px;
+    height:120px;
     width:100%;
-    border:4px dashed rgb(73, 16, 28)
+    margin-top: 5%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
 }

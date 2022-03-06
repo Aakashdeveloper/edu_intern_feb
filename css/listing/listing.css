@@ -1,0 +1,77 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*footer CSS*/
+#header{
+    height:60px;
+    background-color:#e28b62
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+.headingText{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#content{
+    display: inline-block;
+    width:80%;
+    margin-left:10%
+}
+
+#filterDiv{
+    height:500px;
+    width:20%;
+    border:2px solid green;
+    float: left;
+}
+
+#contentDiv{
+    height:700px;
+    width:77%;
+    margin-left: 2%;
+    border:2px solid hotpink;
+    float: left;
+}
+
+/*footer CSS*/
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
