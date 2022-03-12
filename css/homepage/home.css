@@ -43,6 +43,22 @@ a{
     margin-left: 43%;
     margin-top:2%;
     position:absolute;
+    animation:revolve 20s infinite
+}
+
+@keyframes revolve{
+    0% {
+        transform: rotate(30deg);
+        margin-left:2%
+    }
+    25% {transform: rotate(90deg);
+        margin-left:20%}
+    50% {transform: rotate(180deg);
+        margin-left:40%}
+    75% {transform: rotate(270deg);
+        margin-left:80%}
+    100% {transform: rotate(360deg);
+        margin-left:40%}
 }
 
 #logo>span{
@@ -94,6 +110,10 @@ select{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      margin-left: 2%;
 }
+#quickHeading:hover{
+    font-size:40px;
+    color:#8462e2;
+}
 
 #quickSubHeading{
     font-size:20px;
@@ -109,6 +129,25 @@ select{
     display: inline-block;
     margin-left: 2%;
     margin-top: 2%;
+    animation: dance 10s infinite; 
+}
+
+@keyframes dance{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    60% {transform: scale(1.1)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tileContainer:hover{
+    /* 
+    transform:scale(1.1)
+    transform:skewX(-20deg)
+    transform:rotate(0deg)
+     transform:translate(100px,100px)*/
+    transform:scale(1.1)
 }
 
 .tileComponent1{
@@ -160,4 +199,88 @@ select{
 
 .noBorder{
     border:none 
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightblue
+    }
+}
+
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(244, 245, 184)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(216, 248, 187)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(240, 185, 228)
+    }
+    .dropdown {
+        margin-left: 26%;
+        margin-top: 29%;
+    }
+    #heading {
+        margin-top: 20%;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(190, 238, 220)
+    }
+    .tileContainer {
+        width: 45%;
+    }
+    #heading {
+        margin-top: 25%;
+        margin-left: 7%;
+    }
+    .dropdown {
+        margin-top: 35%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(236, 166, 166)
+    }
+    .dropdown {
+        margin-top: 55%;
+        margin-left: 5%;
+        width:95%
+    }
+    #heading {
+        margin-top: 38%;
+        font-size:33px
+    }
+    #logo {
+        margin-left: 33%;
+    }
+    .tileContainer {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    body{
+        background-color:rgb(149, 184, 148)
+    }
+    #heading {
+        font-size: 30px;
+    }
+    .componentSubHeading{
+        color:white;
+    }
 }
