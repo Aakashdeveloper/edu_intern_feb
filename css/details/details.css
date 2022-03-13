@@ -25,35 +25,69 @@ a{
     width:50px;
 }
 
-.headingText{
-    text-align:center;
-    font-size:30px;
-    font-weight: bold;
-}
 
-#content{
-    display: inline-block;
-    width:80%;
-    margin-left:10%
-}
-
-#filterDiv{
-    height:500px;
-    width:20%;
-    border:2px solid green;
-    float: left;
-}
-
-#contentDiv{
+.contentDiv{
     height:700px;
     width:77%;
     margin-left: 2%;
-    border:2px solid hotpink;
     float: left;
 }
 
+.imgDiv{
+    height:450px;
+    width:45%;
+    float: left;
+    border:8px groove gray;
+    margin-top: 5%;
+}
+
+.imgDiv > img {
+    height:450px;
+    width:100%;
+}
+.content{
+    height:600px;
+    width:50%;
+    float: left;
+    margin-top: 3%;
+    margin-left:2%
+}
+
+.checked{
+    color:red;
+}
+
+.feature_container{
+    width:100%;
+    display: inline-block;
+}
+.feature{
+    float: left;
+    margin-left:5%
+}
+.fetIcon{
+    height:100px;
+    width:100px;
+    margin-left:2%
+}
+h2{
+    color:green;
+    font-size:35px;
+}
+
+.btn{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    color:white;
+    background-color:#a39e9e
+}
+
+
+
 /*footer CSS*/
 #footer{
+    clear: both;
     height:120px;
     width:100%;
     margin-top: 5%;
